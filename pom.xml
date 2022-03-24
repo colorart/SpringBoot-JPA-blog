@@ -35,7 +35,15 @@
   <groupId>javax.servlet</groupId>
   <artifactId>jstl</artifactId>
 </dependency>
-		
+
+<!-- 자동재시작 -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-devtools</artifactId>
+        	  <scope>runtime</scope>
+        <optional>true</optional>
+    </dependency>
+    	
 		<!-- 추가 라이브러리 종료 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
